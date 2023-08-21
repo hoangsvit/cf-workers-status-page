@@ -31,3 +31,39 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+  - id:  # unique identifier
+    name: uptime-eplus-dev
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://uptime.eplus.dev/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+  - id:  # unique identifier
+    name: forum-eplus-dev
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://forum.eplus.dev/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+  - id:  # unique identifier
+    name: blog-eplus-dev
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://blog.eplus.dev/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+  - id:  # unique identifier
+    name: status-eplus-dev
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://status.eplus.dev/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
+
+
+
