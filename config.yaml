@@ -23,40 +23,40 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
-  - id:  # unique identifier
-    name: radio-eplus-dev
+  - id: radio-eplus-dev  # unique identifier
+    name: radio.eplus.dev
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://radio.eplus.dev/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
-  - id:  # unique identifier
-    name: uptime-eplus-dev
+  - id: uptime-eplus-dev # unique identifier
+    name: uptime.eplus.dev
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://uptime.eplus.dev/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
-  - id:  # unique identifier
-    name: forum-eplus-dev
+  - id: forum-eplus-dev # unique identifier
+    name: forum.eplus.dev
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://forum.eplus.dev/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
-  - id:  # unique identifier
-    name: blog-eplus-dev
+  - id: blog-eplus-dev # unique identifier
+    name: blog.eplus.dev
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://blog.eplus.dev/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
-  - id:  # unique identifier
-    name: status-eplus-dev
+  - id: status-eplus-dev # unique identifier
+    name: status.eplus.dev
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://status.eplus.dev/' # URL to fetch
     method: GET # default=GET
