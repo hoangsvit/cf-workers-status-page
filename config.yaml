@@ -55,10 +55,10 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
-  - id: status-eplus-dev # unique identifier
-    name: status.eplus.dev
+  - id: tools-eplus-dev # unique identifier
+    name: tools.eplus.dev
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://status.eplus.dev/' # URL to fetch
+    url: 'https://tools.eplus.dev/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
