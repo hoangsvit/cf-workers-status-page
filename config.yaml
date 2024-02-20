@@ -47,14 +47,6 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
-  - id: forum-eplus-dev # unique identifier
-    name: forum.eplus.dev
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://forum.eplus.dev/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
   - id: blog-eplus-dev # unique identifier
     name: blog.eplus.dev
     description: 'You write code. They handle the rest.' # default=empty
