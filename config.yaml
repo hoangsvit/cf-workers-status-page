@@ -31,6 +31,14 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+   - id: old-radio-eplus-dev  # unique identifier
+    name: old-radio.eplus.dev
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://old-radio.eplus.dev/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
   - id: uptime-eplus-dev # unique identifier
     name: uptime.eplus.dev
     description: 'You write code. They handle the rest.' # default=empty
